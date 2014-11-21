@@ -36,7 +36,7 @@ public class Figura {
 		}
 		
 		/* Širina */
-		for (int i = 0; i < m-1; i++)
+		for (int i = 0; i <=m-1; i++)
 		{
 			System.out.print("*");
 		}
@@ -45,7 +45,7 @@ public class Figura {
 		
 		/* Opet visina */
 		
-		for (int i=1; i<n/2; i++)
+		for (int i=1; i<=n/2; i++)
 		{
 			for (int j=i; j>0; j--)
 			{
