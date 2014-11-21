@@ -14,13 +14,13 @@ public class PjescaniSahat {
 		
 		/* Širina */
 		
-		for (int j=m; j>0; j--)
+		for (int j=m; j>=0; j--)
 		{
 			System.out.print("*");
 		}
 		 
 		/* Visina */
-
+		System.out.println("");
 		for (int i=0; i<n/2; i++)
 		{
 			
@@ -57,7 +57,7 @@ public class PjescaniSahat {
 		
 		/* Širina */
 		
-		for (int j=m; j>0; j--)
+		for (int j=m; j>=0; j--)
 		{
 			System.out.print("*");
 		}
