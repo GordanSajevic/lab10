@@ -42,10 +42,10 @@ public class figura2 {
 		{
 			System.out.print(" ");
 		}
-			for (int j=m; j>0; j--)
-			{
-				System.out.print("*");
-			}
+		for (int j=m; j>=0; j--)
+		{
+			System.out.print("*");
+		}
 		 
 		System.out.println("");
 		
@@ -54,13 +54,13 @@ public class figura2 {
 		for (int i=n/2; i>0; i--)
 		{
 			
-			for (int j=i; j>0; j--)
+			for (int j=i-1; j>0; j--)
 			{
 				System.out.print(" ");
 			}
 			
 			System.out.print("*");
-			for (int j=0; j<m+n-i-p-2; j++)
+			for (int j=0; j<m+n-i-p; j++)
 			{
 				System.out.print(" ");
 			}
